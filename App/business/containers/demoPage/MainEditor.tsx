@@ -185,8 +185,7 @@ class MainEditor extends BaseComponent<any, any> {
                     // 正常组件
                     objectAssign(realProps, placeProps);
                     let pri = (new Date()).toString();
-                    return <div key={pri}>
-                        <NativeListener {...outerProps}>
+                    return <NativeListener {...outerProps}>
                             {
                                 React.createElement(
                                     component,
@@ -194,7 +193,6 @@ class MainEditor extends BaseComponent<any, any> {
                                     d.props.content ? [d.props.content] : (d.childrens ? this.renderJSON(d.childrens, is_preview) : null))
                             }
                         </NativeListener>
-                    </div>
 
                 }
 
