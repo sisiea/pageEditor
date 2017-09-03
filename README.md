@@ -17,6 +17,7 @@ This project can be installed from npm:
 ## Acknowledgement 
 
 本project是参考了芋头君已经实现的功能实现的。
+[戳这里](http://f2e-assets.souche.com/projects/antd-editor/index.html)
 
 也特别感谢，在实现的过程中，芋头君耐心的解答。
 
